@@ -11115,7 +11115,7 @@ footer.footer .social-link:hover {
 .container-blur {
   border-radius: 0px;
   padding: 2rem;
-  color: #c6c7c8 /* branco para maior legibilidade */
+  color: #c6c7c8 ;/* branco para maior legibilidade */
 }
 
 #popup-doacao {
