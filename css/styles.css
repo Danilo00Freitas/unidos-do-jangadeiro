@@ -1941,6 +1941,9 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+   .nav-link {
+    text-align: center;
+  }
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
@@ -11111,9 +11114,45 @@ footer.footer .social-link:hover {
 }
 .container-blur {
   background-color: rgba(255, 255, 255, 0.2); /* fundo semi-transparente */
-  backdrop-filter: blur(2px); /* aplica o desfoque */
-  -webkit-backdrop-filter: blur(px); /* para Safari */
+    
   border-radius: 0px;
   padding: 2rem;
   color: #000; /* ou ajuste conforme seu tema */
+}
+#popup-doacao {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; /* Alterado de 'left' para 'right' */
+  background-color: #343a40; /* Cor escura */
+  color: white;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  z-index: 9999;
+  max-width: 250px;
+  font-size: 14px;
+  animation: slideIn 0.6s ease-out;
+  text-align: center; /* Adicionado para justificar o texto */
+}
+
+#popup-doacao button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
