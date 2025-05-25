@@ -9,6 +9,19 @@
       <meta name="description" content="" />
       <meta name="author" content="" />
       <title>Unidos do Jangadeiro</title>
+      <!-- Leaflet CSS -->
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+         integrity="sha256-sA+e2oZbEcm4fWck3gE5eWZfpIOYPG8WZQOVkN9qdM8="
+         crossorigin=""
+         />
+      <!-- Leaflet JS -->
+      <script
+         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+         integrity="sha256-nNbU8f/U7k6vwl5k8JcgZTxFGffwgM4S53SjQ+3ml/k="
+         crossorigin=""
+         ></script>
       <!-- Favicon-->
       <link rel="icon" type="image/x-icon" href="assets/auj-logo.png" />
       <!-- Font Awesome icons (free version)-->
@@ -22,10 +35,10 @@
          href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
          rel="stylesheet"
          />
-         <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         />
       <!-- Google fonts-->
       <link
          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
@@ -38,7 +51,7 @@
    <body id="page-top">
       <!-- Navigation-->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-         <div class="container">
+         <div class="container-fluid">
             <a class="navbar-brand" href="#page-top"
                ><img src="assets/auj-logo.png" alt="..."
                /></a>
@@ -63,13 +76,10 @@
                      <a class="nav-link" href="#about">Sobre nós</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#services">Projetos sociais</a>
-                  </li>
-                  <li class="nav-item">
                      <a class="nav-link" href="#callout">Faça uma doação</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#portfolio">Fotos das ações</a>
+                     <a class="nav-link" href="#portfolio">Nossas ações</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#contact">Contato</a>
@@ -81,7 +91,7 @@
       <!-- Header-->
       <header class="masthead d-flex align-items-center">
          <div class="container container-blur px-4 px-lg-5 text-center">
-            <h1 class="mb-1">Associação <br> Unidos Jangadeiros</h1>
+            <h1 class="mb-1">Associação <br> Unidos do Jangadeiros</h1>
             <h3 class="mb-5">
                <em>Unidos por um futuro melhor: cultura, esporte, saúde e inclusão social</em>
             </h3>
@@ -92,20 +102,18 @@
          <div class="container px-4 px-lg-5 text-center">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                <div class="col-lg-10">
-                  <h2>Transformando Vidas com Cultura, Inclusão e Solidariedade</h2>
+                  <h1>Quem somos?</h1>
+                  <br><br>
                   <p class="lead mb-5">
-                     Desde 2018, a Associação Unidos do Jangadeiro atua no coração da
-                     Zona Sul de São Paulo, promovendo ações que fortalecem laços
-                     familiares, resgatam a autoestima e abrem novas oportunidades.<br /><br />
-                     Com projetos culturais, educacionais, esportivos e sociais,
-                     buscamos construir um futuro mais digno para crianças, jovens e
-                     adultos em situação de vulnerabilidade.<br /><br />
-                     Acreditamos na força da comunidade unida e no poder da arte, dos
-                     cuidado e da educação como ferramentas de transformação.
+                     A associação Unidos do Jangadeiro é uma Organização da Sociedade Civil sem fins lucrativos, fundada em 15 de fevereiro de 2018, com sede na Zona Sul de São Paulo, no bairro Parque Independência.
+                     <br>
+                     Surgimos da inquietação de moradores que, ao observar de perto a dura realidade enfrentada por muitas famílias da região, decidiram agir. Desde então, nos dedicamos à transformação social de forma concreta, afetiva e constante.
+                     <br>
+                     Nosso trabalho nasceu do encontro entre comunidade, voluntários e agentes da saúde, e rapidamente se expandiu para atender uma ampla gama de necessidades da população local — especialmente de crianças, mães solo, idosos, pessoas em situação de rua e cidadãos em condição de vulnerabilidade social.
                   </p>
-                  <a class="btn btn-dark btn-xl" href="#services"
-                     >Conheça Nossos Projetos</a
-                     >
+                  <a class="btn btn-dark btn-xl" href="#services">
+                  Conheça Nossos Projetos
+                  </a>
                </div>
             </div>
          </div>
@@ -119,11 +127,11 @@
             <div class="row gx-4 gx-lg-5">
                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
                   <span class="service-icon rounded-circle mx-auto mb-3">
-                 <i class="fas fa-bullseye"></i>
+                  <i class="fas fa-bullseye"></i>
                   </span>
                   <h4><strong>Missão</strong></h4>
                   <p class="text-faded mb-0">
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quidem iure blanditiis maiores dolorem, aspernatur sit? Eligendi cumque quod adipisci perspiciatis, debitis error repudiandae! Enim praesentium accusantium labore! Porro, adipisci!
+                     Promover dignidade, inclusão e qualidade de vida por meio de ações humanitárias, educacionais, culturais e de geração de renda. Trabalhamos todos os dias para garantir a segurança alimentar, fortalecer os vínculos comunitários e criar oportunidades reais de crescimento para quem mais precisa.
                   </p>
                </div>
                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
@@ -132,7 +140,7 @@
                   </span>
                   <h4><strong>Visão</strong></h4>
                   <p class="text-faded mb-0">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam odit saepe ad quia iure quidem, ducimus, nemo impedit adipisci corporis incidunt ex sit perspiciatis consectetur. Non corrupti esse eos!
+                     Ser um centro de referência comunitária, reconhecido pelo impacto positivo na vida das pessoas, oferecendo acolhimento, ferramentas de transformação e um espaço onde todos se sintam valorizados, respeitados e motivados a construir um futuro melhor.
                   </p>
                </div>
                <div class="col-lg-4 col-md-6 mx-auto">
@@ -141,7 +149,7 @@
                   </span>
                   <h4><strong>Valores</strong></h4>
                   <p class="text-faded mb-0">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cupiditate quis dignissimos iusto aspernatur doloribus amet, dolorum, excepturi reprehenderit at architecto quidem assumenda. Delectus, eligendi? Sed tempora ea earum aspernatur.
+                     Atuamos com solidariedade ativa, inclusão, respeito e compromisso social. Nossas ações são guiadas pela ética, transparência e pelo fortalecimento da comunidade, sempre acreditando na educação como ferramenta de transformação.
                   </p>
                </div>
             </div>
@@ -151,13 +159,11 @@
       <section class="callout" id="callout">
          <div class="container container-blur px-4 px-lg-5 text-center">
             <h2 class="mx-auto mb-5">
-               Deseja nos ajudar?<br />faça uma <em>doação!</em>
+               Deseja nos apoiar?<br />faça uma <em>doação!</em>
             </h2>
-            <a
-               class="btn btn-primary btn-xl"
-               href="https://startbootstrap.com/theme/stylish-portfolio/"
-               >Entrar em contato</a
-               >
+            <button class="btn btn-primary btn-xl" data-bs-toggle="modal" data-bs-target="#modalDoacao">
+            Faça uma doação
+            </button>
          </div>
       </section>
       <!-- Portfolio-->
@@ -282,18 +288,28 @@
             <a class="btn btn-xl btn-dark" href="#!">lorem</a>
          </div>
       </section>
-      <!-- Map-->
-      <div class="map" id="contact">
-         <iframe
-            src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
-            ></iframe>
-         <br />
-         <small
-            ><a
-            href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"
-            ></a
-            ></small>
-      </div>
+      <!-- Mapa -->
+      <section class="content-section bg-light text-center" id="mapa">
+         <h2 class="mb-4">Onde estamos</h2>
+         <div id="googleMap" style="height: 400px; width: 100%;"></div>
+      </section>
+      <script async
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzKheiNFpvB9322FJfslyQwC-2gWo5KYc&callback=initMap"></script>
+      <script>
+         function initMap() {
+           const local = { lat: -23.6102, lng: -46.7194 };
+           const map = new google.maps.Map(document.getElementById("googleMap"), {
+             zoom: 15,
+             center: local,
+           });
+         
+           new google.maps.Marker({
+             position: local,
+             map: map,
+             title: "Associação Unidos do Jangadeiro"
+           });
+         }
+      </script>
       <!-- Footer-->
       <footer class="footer text-center">
          <div class="container px-4 px-lg-5">
@@ -323,12 +339,139 @@
          ></a>
       <!--Donation Popup-->
       <div id="popup-doacao">
-         <p><strong>Ajude a associação Unidos do Jangadeiro a continuar transformando vidas!</strong><br>Considere fazer uma doação 💖</p>
-         <button id="fechar-popup">&times;</button>
-         <!-- Bootstrap core JS-->
+         <p>
+            <strong>Ajude a associação Unidos do Jangadeiro a continuar transformando vidas!</strong><br>
+            Considere fazer uma doação 💖
+         </p>
+         <!-- Botão de fechar -->
+         <button id="fechar-popup" title="Fechar popup">&times;</button>
+         <!-- Bootstrap core JS -->
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-         <!-- Core theme JS-->
+         <!-- Core theme JS -->
          <script src="js/scripts.js"></script>
+      </div>
+      <script async
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSj4dCH1M85WH4Gj359Whg_oA77xcbREY&callback=initMap"></script>
+      <script>
+         function initMap() {
+            const local = { lat: -23.6130, lng: --46.6356 }; // Exemplo: Santo Amaro, SP
+            const map = new google.maps.Map(document.getElementById("googleMap"), {
+               zoom: 15,
+               center: local,
+            });
+         
+            new google.maps.Marker({
+               position: local,
+               map: map,
+               title: "Associação Unidos do Jangadeiro"
+            });
+         }
+      </script>
+      <!-- Modal Doação -->
+      <div class="modal fade" id="modalDoacao" tabindex="-1" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="close-modal" data-bs-dismiss="modal" style="text-align: right; padding: 1rem;">
+                  <img 
+                     src="assets/close-icon.svg" 
+                     alt="Fechar modal" 
+                     style="cursor: pointer; width: 32px; height: 32px;" 
+                     />
+               </div>
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-lg-10">
+                        <div class="modal-body text-start">
+                           <!-- Título -->
+                           <h2 class="text-uppercase text-center">Ajude a Transformar Vidas</h2>
+                           <p class="item-intro text-muted text-center">
+                              Sua doação faz toda a diferença!
+                           </p>
+                           <!-- Video -->
+                           <video class="img-fluid d-block mx-auto mb-4" controls>
+                              <source src="assets/video/video-doacao.mp4" type="video/mp4" />
+                              Seu navegador não suporta a reprodução de vídeos.
+                           </video>
+                           <!-- Conteúdo principal -->
+                           <h4>Como Apoiar Nosso Projeto</h4>
+                           <p>
+                              A transformação que promovemos na Associação Unidos do Jangadeiro só é possível graças a uma rede de apoio formada por pessoas e instituições que acreditam no poder da solidariedade. Se você chegou até aqui, é porque também acredita que juntos podemos fazer mais. E sim, você pode fazer parte dessa mudança.
+                           </p>
+                           <h5 class="mt-4">1. Doações financeiras</h5>
+                           <p>
+                              Cada valor, pequeno ou grande, faz uma enorme diferença. Sua doação nos permite:
+                           </p>
+                           <ul>
+                              <li>Comprar alimentos para nossas refeições diárias e cestas básicas;</li>
+                              <li>Manter o funcionamento da Rede Cozinha Escola;</li>
+                              <li>Adquirir materiais para oficinas e projetos culturais;</li>
+                              <li>Realizar eventos comunitários e ações educativas;</li>
+                              <li>Cuidar da manutenção do nosso espaço físico e infraestrutura.</li>
+                           </ul>
+                           <p><strong>Você pode doar via PIX:</strong><br />
+                              📍 <strong>Chave PIX:</strong> associacaounidosdojangadeiro@gmail.com
+                           </p>
+                           <p>Se preferir realizar uma transferência bancária, entre em contato conosco e enviaremos os dados.</p>
+                           <h5 class="mt-4">2. Doações de itens e materiais</h5>
+                           <p>
+                              Aceitamos doações de alimentos não perecíveis, hortifrúti, produtos de higiene e limpeza, materiais escolares, roupas em bom estado, utensílios de cozinha, brinquedos, livros e materiais recicláveis para uso nas oficinas.
+                           </p>
+                           <p>
+                              Se você tem um comércio, uma empresa ou quer organizar uma campanha de arrecadação, entre em contato. Toda ajuda é bem-vinda.
+                           </p>
+                           <h5 class="mt-4">3. Apoio como voluntário(a)</h5>
+                           <p>
+                              Doar tempo e talento também transforma vidas. Procuramos pessoas dispostas a ajudar em diferentes frentes:
+                           </p>
+                           <ul>
+                              <li>Cozinha e organização de alimentos;</li>
+                              <li>Aulas, oficinas e atividades culturais;</li>
+                              <li>Apoio em eventos e campanhas;</li>
+                              <li>Atendimento e escuta aos moradores;</li>
+                              <li>Apoio administrativo e redes sociais.</li>
+                           </ul>
+                           <p>
+                              Se você quer fazer parte ativamente da nossa missão, preencha o formulário na aba “Seja Voluntário” ou entre em contato com nossa equipe.
+                           </p>
+                           <h5 class="mt-4">4. Parcerias com empresas e instituições</h5>
+                           <p>
+                              Se você representa uma empresa, organização ou coletivo e quer contribuir de forma mais estruturada, estamos abertos a parcerias para:
+                           </p>
+                           <ul>
+                              <li>Patrocínio de projetos específicos;</li>
+                              <li>Doações regulares;</li>
+                              <li>Programas de voluntariado corporativo;</li>
+                              <li>Apoio institucional e logístico;</li>
+                              <li>Capacitação profissional para a comunidade.</li>
+                           </ul>
+                           <h5 class="mt-4">Transforme vidas com a gente</h5>
+                           <p>
+                              Apoiar a Associação Unidos do Jangadeiro é mais do que doar — é investir em dignidade, cuidado e oportunidade para quem mais precisa. Juntos, podemos continuar alimentando corpos e fortalecendo sonhos.
+                           </p>
+                           <p>
+                              Entre em contato pelo WhatsApp ou e-mail para saber mais, agendar sua visita ou fazer sua doação.
+                           </p>
+                           <p>
+                              📩 <strong>E-mail:</strong> associacaounidosdojangadeiro@gmail.com<br />
+                              📱 <strong>WhatsApp:</strong> <a href="https://wa.me/5511952411016" target="_blank">(11) 95241-1016</a>
+                           </p>
+                           <!-- Botão do WhatsApp -->
+                           <div class="text-center mt-4">
+                              <a
+                                 class="btn btn-primary btn-xl text-uppercase"
+                                 href="https://wa.me/5511991576886?text=Olá!%20Quero%20saber%20como%20posso%20ajudar%20a%20Associação%20Unidos%20do%20Jangadeiro."
+                                 target="_blank"
+                                 >
+                              <i class="fas fa-hand-holding-heart me-1"></i>
+                              Quero ajudar!
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
    </body>
 </html>

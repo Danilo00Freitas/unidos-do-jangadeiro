@@ -634,7 +634,7 @@ progress {
 .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  width: 100%;
+  width: 90%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
@@ -3736,7 +3736,7 @@ textarea.form-control-lg {
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-padding-y: 0.4rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
@@ -10962,7 +10962,7 @@ html {
 }
 
 .callout {
-  padding: 15rem 0;
+  padding: 25rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -11121,8 +11121,8 @@ footer.footer .social-link:hover {
 #popup-doacao {
   position: fixed;
   bottom: 20px;
-  right: 20px; /* Alterado de 'left' para 'right' */
-  background-color: #343a40; /* Cor escura */
+  right: 20px; 
+  background-color: #343a40; 
   color: white;
   padding: 20px 25px;
   border-radius: 12px;
@@ -11132,6 +11132,8 @@ footer.footer .social-link:hover {
   font-size: 14px;
   animation: slideIn 0.6s ease-out;
   text-align: center; /* Adicionado para justificar o texto */
+  display: flex;
+  flex-direction: column;
 }
 
 #popup-doacao button {
