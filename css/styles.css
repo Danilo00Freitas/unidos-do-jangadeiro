@@ -10838,6 +10838,10 @@ html {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
+.content-section-map {
+    padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
@@ -11158,3 +11162,8 @@ footer.footer .social-link:hover {
   }
 }
 
+#googleMap {
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-height: 100%;
+}
