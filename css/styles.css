@@ -11214,3 +11214,19 @@ footer.footer .social-link {
 .grid-parceiros img:hover {
   filter: none;
 }
+
+  .modal-img-container {
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .modal-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
