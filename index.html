@@ -82,7 +82,10 @@
                      <a class="nav-link" href="#portfolio">Nossas ações</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#mapa">Localização</a>
+                     <a class="nav-link" href="#map">Localização</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#partners">Parceiros</a>
                   </li>
                </ul>
             </div>
@@ -279,18 +282,12 @@
             </div>
          </div>
       </section>
-      <!-- Call to Action-->
-      <section class="content-section bg-primary text-white">
-         <div class="container px-4 px-lg-5 text-center">
-            <h2 class="mb-4">Junte-se a nós e transforme vidas com a Assosiação Unidos do Jangadeiro!</h2>
-            <a class="btn btn-xl btn-light me-4" href="#callout">Quero Doar</a>
-            <a class="btn btn-xl btn-dark" href="https://wa.me/5511991576886?text=Olá!%20Quero%20saber%20como%20posso%20ajudar%20a%20Associação%20Unidos%20do%20Jangadeiro.">Seja Voluntário</a>
-         </div>
-      </section>
+
       <!-- Mapa -->   
-      <section class="content-section bg-light text-center" id="mapa">
+      <section class="bg-white text-center py-5" id="map">
+         <br><br>
          <h2 class="mb-4">Onde estamos</h2>
-         <div id="googleMap" style="height: 400px; width: 100%;"></div>
+         <div id="googleMap" style="height: 600px; width: 100%;"></div>
       </section>
       <script async
          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzKheiNFpvB9322FJfslyQwC-2gWo5KYc&callback=initMap"></script>
@@ -309,35 +306,48 @@
            });
          }
       </script>
-      <!--Parceiros-->
-        <section class="partners" id="partners">
-         <div class="container container-blur px-4 px-lg-5 text-center">
-           
-            <h1>Inserir parceiros</h1>
-            
+            <!--Parceiros-->
+     <section class="parceiros content-section bg-white text-white py-5 px-3" id="partners">
+         <h2>Parceiros</h2>
+         <div class="grid-parceiros">
+            <img src="assets/img/partners/prefeitura.png" alt="Prefeitura" />
+            <img src="assets/img/partners/cras.png" alt="CRAS" />
+            <img src="assets/img/partners/enel.png" alt="Enel" />
+            <img src="assets/img/partners/sabesp.png" alt="Sabesp" />
+            <img src="assets/img/partners/sus.png" alt="SUS" />
+            <img src="assets/img/partners/lcswifi.png" alt="LCSWifi" />
+            <img src="assets/img/partners/ecosampa.png" alt="EcoSampa" />
+            <img src="assets/img/partners/deu-certo.png" alt="Deu Certo" />
+            <img src="assets/img/partners/caps.png" alt="CAPS" />
+            <img src="assets/img/partners/cat.png" alt="CAT" />
+            <img src="assets/img/partners/jangadeiro.png" alt="Conectcon" />
+            <img src="assets/img/partners/cufa.png" alt="CUFA" />
+            <img src="assets/img/partners/ceagesp.png" alt="CEAGESP"/>
+            <img src="assets/img/partners/jangadeiro.png" alt="CEAGESP"/>
          </div>
       </section>
+
       <!-- Footer-->
-      <footer class="footer text-center">
+      <footer class="footer text-center bg-primary">
          <div class="container px-4 px-lg-5">
             <ul class="list-inline mb-5">
                <li class="list-inline-item">
-                  <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/associacaounidosdojangadeiro/"
+                  <a class="social-link rounded-circle mr-3" href="https://www.instagram.com/associacaounidosdojangadeiro/"
                      ><i class="icon-social-instagram"></i
                      ></a>
                </li>
                <li class="list-inline-item">
-                  <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/associacaounidosdojangadeiro"
+                  <a class="social-link rounded-circle mr-3" href="https://www.facebook.com/associacaounidosdojangadeiro"
                      ><i class="icon-social-facebook"></i
                      ></a>
                </li>
                <li class="list-inline-item">
-                  <a class="social-link rounded-circle text-white mr-3" href="https://wa.me/5511991576886?text=Olá!%20Quero%20saber%20como%20posso%20ajudar%20a%20Associação%20Unidos%20do%20Jangadeiro."
+                  <a class="social-link rounded-circle mr-3" href="https://wa.me/5511991576886?text=Olá!%20Quero%20saber%20como%20posso%20ajudar%20a%20Associação%20Unidos%20do%20Jangadeiro."
                      ><i class="fas fa-comment"></i
                      ></a>
                </li>
             </ul>
-            <p class="text-muted small mb-0">Associação Unidos do Jangadeiro. &copy; Todos os direitos reservados.</p>
+            <p class="text-white small mb-0">Associação Unidos do Jangadeiro. &copy; Todos os direitos reservados.</p>
          </div>
       </footer>
       <!-- Scroll to Top Button-->
@@ -358,25 +368,24 @@
          <script src="js/scripts.js"></script>
       </div>
       <section>
-<script async
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSj4dCH1M85WH4Gj359Whg_oA77xcbREY&callback=initMap"></script>
-      <script>
-         function initMap() {
-            const local = {lat: -23.690131132981723, lng: -46.78230067785808};
-            const map = new google.maps.Map(document.getElementById("googleMap"), {
-               zoom: 15,
-               center: local,
-            });
-         
-            new google.maps.Marker({
-               position: local,
-               map: map,
-               title: "Associação Unidos do Jangadeiro"
-            });
-         }
-      </script>
+         <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSj4dCH1M85WH4Gj359Whg_oA77xcbREY&callback=initMap"></script>
+         <script>
+            function initMap() {
+               const local = {lat: -23.690131132981723, lng: -46.78230067785808};
+               const map = new google.maps.Map(document.getElementById("googleMap"), {
+                  zoom: 15,
+                  center: local,
+               });
+            
+               new google.maps.Marker({
+                  position: local,
+                  map: map,
+                  title: "Associação Unidos do Jangadeiro"
+               });
+            }
+         </script>
       </section>
-      
       <!-- Modal Doação -->
       <div class="modal fade" id="modalDoacao" tabindex="-1" aria-hidden="true">
          <div class="modal-dialog modal-lg">
